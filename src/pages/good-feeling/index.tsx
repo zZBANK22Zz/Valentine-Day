@@ -17,10 +17,6 @@ const GoodFeelPage = () => {
         }
     };
 
-    const handleSelectSpecialDay = () => {
-        r.push("/specialday");
-    }
-
     return (
         <div className="relative min-h-screen">
             {/* Hide all content when the alert is shown */}

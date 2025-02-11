@@ -19,7 +19,7 @@ export default function BadfeelModal({ isOpen, onClose }: BadfeelModalProps) {
       <ModalContent>
         <>
           <ModalHeader className="flex flex-col gap-1">
-            No babe you can't
+            <p>No babe you can't</p>
           </ModalHeader>
           <ModalBody>
             <p>Why....</p>
