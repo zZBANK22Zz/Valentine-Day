@@ -82,9 +82,11 @@ const SpecialDayPage = () => {
 
         <div className="flex justify-center mt-10">
           <Image
+            width={400}
+            height={400}
             src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3B0czllOHhmZjM4dHJwNmF3dXdwN2xvaWxxZGltY3FidHA2amRzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26BRv0ThflsHCqDrG/giphy.gif"
             alt="Valentine's Day GIF"
-            className="w-[300px] h-auto rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg"
           />
         </div>
 
