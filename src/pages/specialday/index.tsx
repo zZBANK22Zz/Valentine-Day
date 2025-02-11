@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import StoryModal from "@/component/storyModal";
+import Image from "next/image";
 
 const SpecialDayPage = () => {
   const [isClient, setIsClient] = useState(false);
@@ -74,13 +75,13 @@ const SpecialDayPage = () => {
         </p>
         <br />
         <p className="text-center font-bold font-cute text-lg">
-          So, Happy Valentine’s Day Babe maybe{" "}
+          So, Happy Valentine Day Babe maybe{" "}
           <span className="underline">At 12:00 PM</span> waiting for me. I will
           give you something.
         </p>
 
         <div className="flex justify-center mt-10">
-          <img
+          <Image
             src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3B0czllOHhmZjM4dHJwNmF3dXdwN2xvaWxxZGltY3FidHA2amRzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26BRv0ThflsHCqDrG/giphy.gif"
             alt="Valentine's Day GIF"
             className="w-[300px] h-auto rounded-lg shadow-lg"
@@ -100,7 +101,7 @@ const SpecialDayPage = () => {
         </div>
 
         <div className="absolute left-0 bottom-0">
-          <img
+          <Image
             src="/image copy.png"
             alt="money"
             width={300}

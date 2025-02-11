@@ -19,13 +19,13 @@ export default function BadfeelModal({ isOpen, onClose }: BadfeelModalProps) {
       <ModalContent>
         <>
           <ModalHeader className="flex flex-col gap-1">
-            <p>No babe you can't</p>
+            <p>No babe you can not</p>
           </ModalHeader>
           <ModalBody>
             <p>Why....</p>
             <p>
-              I know you've been working really hard these past few weeks, but
-              honey, you've done a great job. Don't feel bad about things that
+              I know you have been working really hard these past few weeks, but
+              honey, you have done a great job. Don not feel bad about things that
               make you unhappy, okay? Then press <p className="font-bold">Good button</p>
             </p>
           </ModalBody>

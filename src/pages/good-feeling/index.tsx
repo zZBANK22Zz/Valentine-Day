@@ -2,6 +2,7 @@ import { useState } from "react";
 import CardModal from "@/component/cardModal";
 import AlertModal from "@/component/alertModal";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const GoodFeelPage = () => {
     const [showAlert, setShowAlert] = useState(false);
@@ -29,10 +30,12 @@ const GoodFeelPage = () => {
                         <CardModal onSelect={handleSelect} />
                     </div>
                     <div className="flex justify-center mt-10">
-                        <img
+                        <Image
+                        width={300}
+                        height={300}
                             src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXU1MDlscjB6d2VkZGY5dWpibmphdDVmeHZqZHExNmpkd2piMmxnMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1D1ysSBoLxAJImgZlx/giphy.gif"
                             alt="Valentine's Day GIF"
-                            className="w-[300px] h-auto rounded-lg shadow-lg"
+                            className="rounded-lg shadow-lg"
                         />
                     </div>
                 </div>
