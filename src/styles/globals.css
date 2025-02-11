@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Pacifico&family=Poppins:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+.font-cute {
+  font-family: 'Comic Neue', 'Pacifico', 'Poppins', sans-serif;
+}
+
+.bg-flower-pattern {
+  background-image: url('/image/Flower-bg.webp'); /* Replace with your image's path */
+  background-size: 1500px 800px; /* Adjust as needed */
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.text-shadow-white {
+  text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.8);
+}
